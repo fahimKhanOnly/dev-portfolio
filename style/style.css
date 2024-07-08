@@ -55,6 +55,11 @@ nav{
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
+.scale:hover{
+    transition: all;
+    transition-duration: 0.1s;
+    transform: scale(1.2);
+}
 .nav-item > a > button{
     background-color: var(--tomato);
     border-radius: 5px;
@@ -65,6 +70,11 @@ nav{
     color: rgb(255, 255, 255);
     font-weight: 700;
     cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.nav-item > a > button:hover{
+    background-color: black;
 }
 .banner{
     display: flex;
@@ -113,6 +123,11 @@ nav{
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.cv-download-btn:hover{
+    background-color: black;
 }
 .contact-btn{
     width: 160px;
@@ -124,6 +139,7 @@ nav{
     font-weight: 700;
     cursor: pointer;
 }
+
 /* Header section ends here */
 
 /* About me section start here */
@@ -248,7 +264,7 @@ nav{
     line-height: 27px;
     color: rgb(117, 117, 117);
 }
-.resume > button{
+.resume > a{
     background-color: rgb(253, 110, 10);
     width: 200px;
     height: 62px;
@@ -257,7 +273,17 @@ nav{
     color: rgb(255, 255, 255);
     margin: 50px 0 115px 0;
     border-radius: 5px;
-    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.resume > a:hover{
+    background-color: black;
 }
 hr{
     margin: 30px 0;
@@ -324,5 +350,11 @@ form > button{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+}
+form > button:hover{
+    background-color: black;
 }
 /* Footer section ends here */
