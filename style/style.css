@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --tomato: rgb(253, 110, 10);
+}
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+main{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/* Header section starts here */
+header{
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 23px, bottom right;
+    height: 840px;
+    background-color: rgb(255, 248, 243);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav-parent{
+    max-width: 1530px;
+    padding-top: 50px;
+    margin: auto;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.spacial{
+    color: var(--tomato);
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    list-style-type: none;
+    margin-right: 51px;
+}
+.nav-item > a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+.nav-item > a > button{
+    background-color: var(--tomato);
+    border-radius: 5px;
+    font-size: 20px;
+    height: 64px;
+    width: 150px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    cursor: pointer;
+}
+.banner{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 185px;
+    height: 538px;
+    justify-content: space-between;
+    margin-left: 188px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+    margin-bottom: 20px;
+}
+.banner-desc{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    color: rgb(117, 117, 117);
+}
+.profile-picture{
+    margin-right: 38px;
+    height: 541px;
+    width: 470px;
+}
+.contact-cv-btns{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.cv-download-btn{
+    width: 200px;
+    height: 64px;
+    background-color: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.contact-btn{
+    width: 160px;
+    height: 64px;
+    color: rgb(253, 110, 10);
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* Header section ends here */
+
+/* About me section start here */
+.about-me{
+    margin: 130px 0;
+    padding: 130px 157px;
+    background-color: rgb(255, 248, 243);
+}
+.about-me-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+    margin-bottom: 30px;
+}
+.about-me-description{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    line-height: 30px;
+}
+.about-info{
+    display: flex;
+    gap: 50px;
+    line-height: 30px;
+    justify-content: space-between;
+}
+.about-info > div > p{
+    color: rgb(117, 117, 117);
+    text-align: center;
+}
+.about-info > div > strong{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* About me section ends here */
+
+/* What I do section starts here */
+.my-work{
+    margin-bottom: 130px;
+}
+.my-work-title{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: rgb(24, 24, 24);
+    margin-bottom: 30px;
+}
+.my-work-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(117, 117, 117);
+    margin: 0 115px;
+    margin-bottom: 50px;
+}
+.my-skills{
+    display: flex;
+    gap: 25px;
+}
+.my-skills > div{
+    width: 267px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.my-skills > div > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(117, 117, 117);
+    padding-top: 20px;
+}
+.my-skills > div > h4{
+    margin-top: 30px;
+}
+/* What I do section is ends here */
+
+/* Resume section starts here */
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resume-title{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 110px;
+    color: rgb(24, 24, 24);
+}
+.my-qualifications{
+    display: flex;
+    gap: 25px;
+}
+.qualifications-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    padding-bottom: 30px;
+}
+.qualifications-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    padding-bottom: 10px;
+}
+.qualifications-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(117, 117, 117);
+    padding: 20px 47px 30px 0;
+}
+.qualifications-info{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgb(117, 117, 117);
+}
+.resume > button{
+    background-color: rgb(253, 110, 10);
+    width: 200px;
+    height: 62px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin: 50px 0 115px 0;
+    border-radius: 5px;
+    border: none;
+}
+hr{
+    margin: 30px 0;
+}
+/* Resume section ends here */
+
+/* Footer section starts here */
+footer{
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    padding: 130px 385px 130px;
+}
+.connect-section{
+    margin: 130px 110px 470px 0;
+}
+.connect-section > h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+.connect-section > p{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0 30px 0;
+    line-height: 28px;
+}
+.connect-section > div{
+    display: flex;
+    gap: 20px;
+}
+
+form{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 28px;
+}
+form > label > input, textarea{
+    display: block;
+    width: 461px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+form > label > textarea::placeholder, input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 30px;
+}
+form > label > input{
+    height: 64px;
+}
+form > label > textarea{
+    height: 180px;
+}
+form > button{
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Footer section ends here */
